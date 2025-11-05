@@ -1,3 +1,4 @@
+
 {
     "21459407-7765-44f6-b183-2ebef8283f63": {
         "adventure_data": {
@@ -2051,6 +2052,12 @@
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Shadows_z0n69GG.png",
                         "in_filters": true,
                         "name": "Shadows"
+                    },
+                    {
+                        "id": "Logos",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
+                        "name": "Logos"
                     },
                     {
                         "id": "Mars",
@@ -8384,6 +8391,12 @@
                 ],
                 "houses": [
                     {
+                        "id": "Sanctum",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Sanctum_lUWPG7x.png",
+                        "in_filters": true,
+                        "name": "Sanctum"
+                    },
+                    {
                         "id": "Logos",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
                         "in_filters": true,
@@ -10492,7 +10505,7 @@
                         "id": "Dis",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
-                        "name": "Dis"
+                        "name": "Brobnar"
                     },
                     {
                         "id": "Brobnar",
@@ -22839,7 +22852,7 @@
                         "id": "Dis",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
-                        "name": "Dis"
+                        "name": "Shadows"
                     },
                     {
                         "id": "Shadows",
