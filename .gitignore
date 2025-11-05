@@ -119,7 +119,7 @@ content/assets/mtg
 content/assets/gwent
 content/assets/fab
 
-# Custom content folders (for forks) - only exclude downloaded images
+# Here copies of card images are stored for local use
 mycontent/assets/keyforge
 mycontent/assets/mtg
 mycontent/assets/gwent

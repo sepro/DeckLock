@@ -21,8 +21,8 @@ AUTHOR = "Sebastian Proost"
 SITENAME = "DeckLock"
 SITEURL = ""
 
-PATH = "content"
-DECKLOCK_CACHE = "dl_demo_cache"
+PATH = "mycontent"
+DECKLOCK_CACHE = "dl_cache"
 
 TIMEZONE = "Europe/Paris"
 
