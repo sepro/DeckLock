@@ -117,3 +117,9 @@ content/assets/keyforge
 content/assets/mtg
 content/assets/gwent
 content/assets/fab
+
+# Here copies of card images are stored for local use
+mycontent/assets/keyforge
+mycontent/assets/mtg
+mycontent/assets/gwent
+mycontent/assets/fab
