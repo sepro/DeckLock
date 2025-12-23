@@ -8412,8 +8412,8 @@
                         "633d6f5d-31df-4b39-82c3-8ff0e0494002",
                         "76fce6b7-5877-4f49-bb9a-a0515ffbb8f2",
                         "76fce6b7-5877-4f49-bb9a-a0515ffbb8f2",
-                        "ea7472ed-4533-499e-a107-dd65d3d5e818",
                         "eb28a149-78d5-4dfe-aebb-c506dd1401fa",
+                        "ea7472ed-4533-499e-a107-dd65d3d5e818",
                         "801d91f9-abd5-4682-8015-1fafdb1bf0f1",
                         "801d91f9-abd5-4682-8015-1fafdb1bf0f1",
                         "a1c950a5-16a1-4a79-8f5a-02ac30b3c4c0",
@@ -14711,8 +14711,8 @@
                         "7b9b2b5b-e001-4714-be5f-9fcc5e4c5db5",
                         "aa222740-ecb9-4a0c-99d1-9b98b256f1e3",
                         "5b0bac0c-b1df-4f4a-9b70-edc4f7d75cc7",
-                        "ab7daf47-33e7-425c-842a-ba0eede347d9",
                         "74220455-ce1e-4f72-918f-a0eea05d303a",
+                        "ab7daf47-33e7-425c-842a-ba0eede347d9",
                         "df3e34c9-8c95-40f2-9ec0-20d9c59fa911",
                         "db7d29f4-b656-4d0c-b8bb-1fd86644e3e0",
                         "db7d29f4-b656-4d0c-b8bb-1fd86644e3e0",
@@ -20776,12 +20776,6 @@
                 ],
                 "houses": [
                     {
-                        "id": "Logos",
-                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
-                        "in_filters": true,
-                        "name": "Logos"
-                    },
-                    {
                         "id": "Shadows",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Shadows_z0n69GG.png",
                         "in_filters": true,
@@ -20792,6 +20786,12 @@
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Sanctum_lUWPG7x.png",
                         "in_filters": true,
                         "name": "Sanctum"
+                    },
+                    {
+                        "id": "Logos",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
+                        "name": "Logos"
                     }
                 ],
                 "notes": []
@@ -29363,12 +29363,6 @@
                 ],
                 "houses": [
                     {
-                        "id": "Logos",
-                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
-                        "in_filters": true,
-                        "name": "Logos"
-                    },
-                    {
                         "id": "Dis",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
@@ -29379,6 +29373,12 @@
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Saurian.png",
                         "in_filters": true,
                         "name": "Saurian"
+                    },
+                    {
+                        "id": "Logos",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
+                        "name": "Logos"
                     }
                 ],
                 "notes": []
