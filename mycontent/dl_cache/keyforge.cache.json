@@ -2047,28 +2047,22 @@
                 ],
                 "houses": [
                     {
+                        "id": "Logos",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
+                        "name": "Logos"
+                    },
+                    {
                         "id": "Shadows",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Shadows_z0n69GG.png",
                         "in_filters": true,
                         "name": "Shadows"
                     },
                     {
-                        "id": "Logos",
-                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
-                        "in_filters": true,
-                        "name": "Logos"
-                    },
-                    {
                         "id": "Mars",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Mars_CmAUCXI.png",
                         "in_filters": true,
                         "name": "Mars"
-                    },
-                    {
-                        "id": "Logos",
-                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
-                        "in_filters": true,
-                        "name": "Logos"
                     }
                 ],
                 "notes": []
@@ -6211,6 +6205,12 @@
                 ],
                 "houses": [
                     {
+                        "id": "Logos",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
+                        "name": "Logos"
+                    },
+                    {
                         "id": "Shadows",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Shadows_z0n69GG.png",
                         "in_filters": true,
@@ -6221,12 +6221,6 @@
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Sanctum_lUWPG7x.png",
                         "in_filters": true,
                         "name": "Sanctum"
-                    },
-                    {
-                        "id": "Logos",
-                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
-                        "in_filters": true,
-                        "name": "Logos"
                     }
                 ],
                 "notes": []
@@ -8390,12 +8384,6 @@
                 ],
                 "houses": [
                     {
-                        "id": "Sanctum",
-                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Sanctum_lUWPG7x.png",
-                        "in_filters": true,
-                        "name": "Sanctum"
-                    },
-                    {
                         "id": "Logos",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
                         "in_filters": true,
@@ -10504,7 +10492,7 @@
                         "id": "Dis",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
-                        "name": "Brobnar"
+                        "name": "Dis"
                     },
                     {
                         "id": "Brobnar",
@@ -16750,16 +16738,16 @@
                 ],
                 "houses": [
                     {
-                        "id": "Untamed",
-                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Untamed_bXh9SJD.png",
-                        "in_filters": true,
-                        "name": "Untamed"
-                    },
-                    {
                         "id": "Saurian",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Saurian.png",
                         "in_filters": true,
                         "name": "Saurian"
+                    },
+                    {
+                        "id": "Untamed",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Untamed_bXh9SJD.png",
+                        "in_filters": true,
+                        "name": "Untamed"
                     },
                     {
                         "id": "Star Alliance",
@@ -22851,7 +22839,7 @@
                         "id": "Dis",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
-                        "name": "Shadows"
+                        "name": "Dis"
                     },
                     {
                         "id": "Shadows",
@@ -29375,6 +29363,12 @@
                 ],
                 "houses": [
                     {
+                        "id": "Logos",
+                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
+                        "in_filters": true,
+                        "name": "Logos"
+                    },
+                    {
                         "id": "Dis",
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Dis_OooSNPO.png",
                         "in_filters": true,
@@ -29385,12 +29379,6 @@
                         "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Saurian.png",
                         "in_filters": true,
                         "name": "Saurian"
-                    },
-                    {
-                        "id": "Logos",
-                        "image": "https://mastervault-storage-prod.s3.amazonaws.com/media/houses/Logos_2mOY1dH.png",
-                        "in_filters": true,
-                        "name": "Logos"
                     }
                 ],
                 "notes": []
