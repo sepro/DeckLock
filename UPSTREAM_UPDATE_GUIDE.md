@@ -19,7 +19,7 @@ When you want to pull in new features from the original DeckLock repository:
 git fetch upstream
 
 # 2. Merge upstream changes into your current branch
-git merge upstream/master
+git merge upstream/master --no-edit
 
 # 3. Push your updated branch
 git push origin main
