@@ -1,0 +1,9 @@
+# Git Attributes for DeckLock Fork
+# This file configures merge strategies for specific directories
+
+# Always keep our version of mycontent/ during merges with upstream
+# This protects your custom deck data from being overwritten
+mycontent/** merge=ours
+
+# Also protect your custom cache from upstream changes
+mycontent/dl_cache/** merge=ours

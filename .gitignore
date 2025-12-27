@@ -124,3 +124,10 @@ mycontent/assets/keyforge
 mycontent/assets/mtg
 mycontent/assets/gwent
 mycontent/assets/fab
+
+# Ignore upstream demo content and build artifacts (for fork-specific setup)
+# This prevents merge conflicts when syncing with upstream
+content/data/
+content/dl_demo_cache/
+docs/
+
