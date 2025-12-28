@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeckLock - Show 'n Tell
+</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta name="author" content="Sebastian Proost">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sebastian.proost.science/DeckLock/mtg/Legacy/show-n-tell/index.html">
+<meta property="og:title" content="DeckLock for Magic: the Gathering - Show 'n Tell">
+<meta property="og:description" content="Overview of cards in Show 'n Tell, format Legacy">
+<meta property="og:image" content="https://sebastian.proost.science/DeckLock/theme/img/DeckLock_mtg.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://sebastian.proost.science/DeckLock/mtg/Legacy/show-n-tell/index.html">
+<meta property="twitter:title" content="DeckLock for Magic: the Gathering - Show 'n Tell">
+<meta property="twitter:description" content="Overview of cards in Show 'n Tell, format Legacy">
+<meta property="twitter:image" content="https://sebastian.proost.science/DeckLock/theme/img/DeckLock_mtg.png">
+
+        <link rel="stylesheet" href="https://sebastian.proost.science/DeckLock/theme/css/style.min.css?30650e09">
+
+<link href="https://sebastian.proost.science/DeckLock/theme/css/mana-cost.css" rel="stylesheet" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sebastian.proost.science/DeckLock/theme/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://sebastian.proost.science/DeckLock/theme/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://sebastian.proost.science/DeckLock/theme/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://sebastian.proost.science/DeckLock/theme/icons/site.webmanifest">
+    <link rel="mask-icon" href="https://sebastian.proost.science/DeckLock/theme/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://sebastian.proost.science/DeckLock/theme/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-config" content="https://sebastian.proost.science/DeckLock/theme/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+    // Prevent dark mode flash - must run before body renders
+    (function() {
+        const theme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="https://sebastian.proost.science/DeckLock/index.html">
+      <img src="https://sebastian.proost.science/DeckLock/theme/img/decklock_icon.png" alt="Decklock icon" class="me-2" />
+      <span class="fw-bold">DeckLock</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Games
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+<li><a class="dropdown-item" href="https://sebastian.proost.science/DeckLock/fab.html">Flesh and Blood</a></li><li><a class="dropdown-item" href="https://sebastian.proost.science/DeckLock/gwent.html">Gwent</a></li><li><a class="dropdown-item" href="https://sebastian.proost.science/DeckLock/keyforge.html">KeyForge</a></li><li><a class="dropdown-item" href="https://sebastian.proost.science/DeckLock/mtg.html">Magic: the Gathering</a></li>          </ul>
+        </li>
+      </ul>
+      <button class="btn btn-outline-light" id="theme-toggle" aria-label="Toggle dark mode">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill" viewBox="0 0 16 16">
+          <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+          <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="container top15">
+    <ol class="breadcrumb top15">
+      <li class="breadcrumb-item"><a href="https://sebastian.proost.science/DeckLock/index.html">DeckLock</a></li>
+      <li class="breadcrumb-item"><a href="https://sebastian.proost.science/DeckLock/mtg.html">Magic: the Gathering</a></li>
+      <li class="breadcrumb-item active">Show 'n Tell</li>
+    </ol>
+
+<h1>Show 'n Tell <small class="text-muted">(Legacy)</small></h1>
+
+
+<div class="row">
+    <div class="col-md-8 top15">
+        <div class="card h-100">
+            <div class="card-header"><h3>Main Deck <small class="text-muted">(60)</small></h3></div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg">
+
+                    <h4>Lands <small class="text-muted">(19)</small></h4>
+                    <ul class="card_list">
+                                <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1764758774' loading='lazy' />">Ancient Tomb</span> <span class="manacost"></span></span></li>
+
+                                <li>2 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/7/1/71624139-a255-48be-93ca-594a4beba487.jpg?1562429861' loading='lazy' />">City of Traitors</span> <span class="manacost"></span></span></li>
+
+                                <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/8/f/8f85e12c-196b-4459-b81f-0c9c854e9f57.jpg?1717012985' loading='lazy' />">Flooded Strand</span> <span class="manacost"></span></span></li>
+
+                                <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/a/2/a2e22347-f0cb-4cfd-88a3-4f46a16e4946.jpg?1764122056' loading='lazy' />">Island</span> <span class="manacost"></span></span></li>
+
+                                <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/8/8/88231c0d-0cc8-44ec-bf95-81d1710ac141.jpg?1738703648' loading='lazy' />">Misty Rainforest</span> <span class="manacost"></span></span></li>
+
+                                <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/c/4/c44f81ca-f72f-445c-8901-3a894a2a47f9.jpg?1764122068' loading='lazy' />">Mountain</span> <span class="manacost"></span></span></li>
+
+                                <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/6/e/6e288374-2b71-4ace-b1d2-a19fee6cb4af.jpg?1717013017' loading='lazy' />">Polluted Delta</span> <span class="manacost"></span></span></li>
+
+                                <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/7/1/71e491c5-8c07-449b-b2f1-ffa052e6d311.jpg?1738703652' loading='lazy' />">Scalding Tarn</span> <span class="manacost"></span></span></li>
+
+                                <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/2/f/2f607e7e-30c0-45e9-8f61-bf6e9fe63f2b.jpg?1562904669' loading='lazy' />">Volcanic Island</span> <span class="manacost"></span></span></li>
+
+                    </ul>
+
+                    <h4>Creatures <small class="text-muted">(6)</small></h4>
+                    <ul class="card_list">
+                                 <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/2/4/249db4d4-2542-47ee-a216-e13ffbc2319c.jpg?1758104027' loading='lazy' />">Emrakul, the Aeons Torn</span> <span class="manacost"><span class="mana small s15"></span></span></span></li>
+
+                                 <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/4/0/4069e510-f3f3-4668-9f13-3546fa9bc7c3.jpg?1736467973' loading='lazy' />">Griselbrand</span> <span class="manacost"><span class="mana small s4"></span><span class="mana small sb"></span><span class="mana small sb"></span><span class="mana small sb"></span><span class="mana small sb"></span></span></span></li>
+
+                    </ul>
+                    </div>
+                    <div class="col-lg">
+                    <h4>Instants and Sorceries <small class="text-muted">(26)</small></h4>
+                    <ul class="card_list">
+                                <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/8/b/8beb987c-1b67-4a4e-ae71-58547afad2a0.jpg?1726284649' loading='lazy' />">Brainstorm</span> <span class="manacost"><span class="mana small su"></span></span></span></li>
+
+                                <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/c/a/ca097675-5e82-493d-beab-9fc11efd7492.jpg?1562631972' loading='lazy' />">Cunning Wish</span> <span class="manacost"><span class="mana small s2"></span><span class="mana small su"></span></span></span></li>
+
+                                <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/f/9/f900eeb7-7c45-44bc-ad3a-0bbe594ecf50.jpg?1562856071' loading='lazy' />">Flusterstorm</span> <span class="manacost"><span class="mana small su"></span></span></span></li>
+
+                                <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/8/9/89f612d6-7c59-4a7b-a87d-45f789e88ba5.jpg?1753711891' loading='lazy' />">Force of Will</span> <span class="manacost"><span class="mana small s3"></span><span class="mana small su"></span><span class="mana small su"></span></span></span></li>
+
+                                <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/b/1/b13e73a5-067d-4dbd-9c98-34a0db6140de.jpg?1562431264' loading='lazy' />">Intuition</span> <span class="manacost"><span class="mana small s2"></span><span class="mana small su"></span></span></span></li>
+
+                                <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/d/c/dc69f960-68ba-4315-8146-6a7a82047503.jpg?1743206358' loading='lazy' />">Ponder</span> <span class="manacost"><span class="mana small su"></span></span></span></li>
+
+                                <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/d/d/dd29a0e5-c1de-4e8a-8866-715e9f9cde1f.jpg?1764118090' loading='lazy' />">Preordain</span> <span class="manacost"><span class="mana small su"></span></span></span></li>
+
+                                <li>4 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/f/a/fa7b7897-36e0-415a-8bb7-602886164852.jpg?1707355809' loading='lazy' />">Show and Tell</span> <span class="manacost"><span class="mana small s2"></span><span class="mana small su"></span></span></span></li>
+
+                                <li>2 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/8/d/8dd4374f-0301-4b2e-bc99-2cd19568cb3b.jpg?1738359138' loading='lazy' />">Spell Pierce</span> <span class="manacost"><span class="mana small su"></span></span></span></li>
+
+                    </ul>
+                    <h4>Other Spells <small class="text-muted">(9)</small></h4>
+                    <ul class="card_list">
+                                    <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/f/8/f85ab5f9-508e-45de-8fa1-ce1f16552ffc.jpg?1701537448' loading='lazy' />">Lotus Petal</span> <span class="manacost"><span class="mana small s0"></span></span></span></li>
+
+                                    <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/d/3/d33d91d0-1506-45e4-9def-975bf901815e.jpg?1731652624' loading='lazy' />">Omniscience</span> <span class="manacost"><span class="mana small s7"></span><span class="mana small su"></span><span class="mana small su"></span><span class="mana small su"></span></span></span></li>
+
+                                    <li>3 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/a/4/a45b4ca9-4355-4690-84c3-a7d44c367dbf.jpg?1675200189' loading='lazy' />">Sneak Attack</span> <span class="manacost"><span class="mana small s3"></span><span class="mana small sr"></span></span></span></li>
+
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 top15">
+        <div class="card h-100">
+            <div class="card-header"><h3>Sideboard <small class="text-muted">(15)</small></h3></div>
+            <div class="card-body">
+                <ul class="card_list">
+                            <li>2 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/d/0/d072e9ca-aae7-45dc-8025-3ce590bae63f.jpg?1753711840' loading='lazy' />">Blood Moon</span> <span class="manacost"><span class="mana small s2"></span><span class="mana small sr"></span></span></span></li>
+
+                            <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/f/9/f939dac5-ad71-4163-adde-4f435412477c.jpg?1562744235' loading='lazy' />">Defense Grid</span> <span class="manacost"><span class="mana small s2"></span></span></span></li>
+
+                            <li>2 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/5/d/5d987d26-c8e8-4edf-8ac0-6a2980265710.jpg?1673305149' loading='lazy' />">Echoing Truth</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small su"></span></span></span></li>
+
+                            <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/e/a/ea751fe2-b64a-4265-8885-a9016b29b5b3.jpg?1562202300' loading='lazy' />">Eladamri's Call</span> <span class="manacost"><span class="mana small sg"></span><span class="mana small sw"></span></span></span></li>
+
+                            <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/5/5/555778df-8ed9-4eb3-859b-4246d9e05ee5.jpg?1605275421' loading='lazy' />">Firemind's Foresight</span> <span class="manacost"><span class="mana small s5"></span><span class="mana small su"></span><span class="mana small sr"></span></span></span></li>
+
+                            <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/f/9/f900eeb7-7c45-44bc-ad3a-0bbe594ecf50.jpg?1562856071' loading='lazy' />">Flusterstorm</span> <span class="manacost"><span class="mana small su"></span></span></span></li>
+
+                            <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/0/a/0a135e09-b534-4836-9a10-3a9a4a9f8c53.jpg?1592517646' loading='lazy' />">Grafdigger's Cage</span> <span class="manacost"><span class="mana small s1"></span></span></span></li>
+
+                            <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/7/2/72765559-0a78-4aa3-827e-cb4612720991.jpg?1618608556' loading='lazy' />">Kozilek's Return</span> <span class="manacost"><span class="mana small s2"></span><span class="mana small sr"></span></span></span></li>
+
+                            <li>2 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/b/0/b029eb9a-dd7a-40c2-96c4-0063d9cc002c.jpg?1580014621' loading='lazy' />">Pyroblast</span> <span class="manacost"><span class="mana small sr"></span></span></span></li>
+
+                            <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/5/b/5b659a3b-0f66-40f2-8e2e-f13b694e270e.jpg?1619397715' loading='lazy' />">Sudden Shock</span> <span class="manacost"><span class="mana small s1"></span><span class="mana small sr"></span></span></span></li>
+
+                            <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/e/1/e15d76ac-1c23-4503-8225-375ac2bf2fb6.jpg?1673147668' loading='lazy' />">Surgical Extraction</span> <span class="manacost"><span class="mana small sbp"></span></span></span></li>
+
+                            <li>1 <span class="card-name" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-content="<img class='popup-card-image' src='https://cards.scryfall.io/border_crop/front/c/9/c90a3430-f6d9-4432-84d3-9952d2b82003.jpg?1736468237' loading='lazy' />">Through the Breach</span> <span class="manacost"><span class="mana small s4"></span><span class="mana small sr"></span></span></span></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Mana Curve</h5>
+            </div>
+            <div class="card-body p-3">
+                <canvas id="cmcStats" width="400" height="300"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 top15">
+        <div class="card h-100">
+            <div class="card-header"><h3>Visual</h3></div>
+            <div class="card-body">
+                <h4>Lands <small class="text-muted">(19)</small></h4>
+                <div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1764758774' loading='lazy' alt='Ancient Tomb' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1764758774' loading='lazy' alt='Ancient Tomb' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1764758774' loading='lazy' alt='Ancient Tomb' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/7/1/71624139-a255-48be-93ca-594a4beba487.jpg?1562429861' loading='lazy' alt='City of Traitors' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/7/1/71624139-a255-48be-93ca-594a4beba487.jpg?1562429861' loading='lazy' alt='City of Traitors' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/8/f/8f85e12c-196b-4459-b81f-0c9c854e9f57.jpg?1717012985' loading='lazy' alt='Flooded Strand' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/a/2/a2e22347-f0cb-4cfd-88a3-4f46a16e4946.jpg?1764122056' loading='lazy' alt='Island' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/a/2/a2e22347-f0cb-4cfd-88a3-4f46a16e4946.jpg?1764122056' loading='lazy' alt='Island' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/a/2/a2e22347-f0cb-4cfd-88a3-4f46a16e4946.jpg?1764122056' loading='lazy' alt='Island' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/8/8/88231c0d-0cc8-44ec-bf95-81d1710ac141.jpg?1738703648' loading='lazy' alt='Misty Rainforest' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/c/4/c44f81ca-f72f-445c-8901-3a894a2a47f9.jpg?1764122068' loading='lazy' alt='Mountain' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/6/e/6e288374-2b71-4ace-b1d2-a19fee6cb4af.jpg?1717013017' loading='lazy' alt='Polluted Delta' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/7/1/71e491c5-8c07-449b-b2f1-ffa052e6d311.jpg?1738703652' loading='lazy' alt='Scalding Tarn' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/7/1/71e491c5-8c07-449b-b2f1-ffa052e6d311.jpg?1738703652' loading='lazy' alt='Scalding Tarn' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/7/1/71e491c5-8c07-449b-b2f1-ffa052e6d311.jpg?1738703652' loading='lazy' alt='Scalding Tarn' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://cards.scryfall.io/border_crop/front/7/1/71e491c5-8c07-449b-b2f1-ffa052e6d311.jpg?1738703652' loading='lazy' alt='Scalding Tarn' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/2/f/2f607e7e-30c0-45e9-8f61-bf6e9fe63f2b.jpg?1562904669' loading='lazy' alt='Volcanic Island' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/2/f/2f607e7e-30c0-45e9-8f61-bf6e9fe63f2b.jpg?1562904669' loading='lazy' alt='Volcanic Island' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/2/f/2f607e7e-30c0-45e9-8f61-bf6e9fe63f2b.jpg?1562904669' loading='lazy' alt='Volcanic Island' />
+
+                        </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <h4>Creatures <small class="text-muted">(6)</small></h4>
+                <div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/2/4/249db4d4-2542-47ee-a216-e13ffbc2319c.jpg?1758104027' loading='lazy' alt='Emrakul, the Aeons Torn' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/2/4/249db4d4-2542-47ee-a216-e13ffbc2319c.jpg?1758104027' loading='lazy' alt='Emrakul, the Aeons Torn' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/2/4/249db4d4-2542-47ee-a216-e13ffbc2319c.jpg?1758104027' loading='lazy' alt='Emrakul, the Aeons Torn' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/4/0/4069e510-f3f3-4668-9f13-3546fa9bc7c3.jpg?1736467973' loading='lazy' alt='Griselbrand' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/4/0/4069e510-f3f3-4668-9f13-3546fa9bc7c3.jpg?1736467973' loading='lazy' alt='Griselbrand' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/4/0/4069e510-f3f3-4668-9f13-3546fa9bc7c3.jpg?1736467973' loading='lazy' alt='Griselbrand' />
+
+                        </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <h4>Instants and Sorceries <small class="text-muted">(26)</small></h4>
+                <div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/8/b/8beb987c-1b67-4a4e-ae71-58547afad2a0.jpg?1726284649' loading='lazy' alt='Brainstorm' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/8/b/8beb987c-1b67-4a4e-ae71-58547afad2a0.jpg?1726284649' loading='lazy' alt='Brainstorm' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/8/b/8beb987c-1b67-4a4e-ae71-58547afad2a0.jpg?1726284649' loading='lazy' alt='Brainstorm' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://cards.scryfall.io/border_crop/front/8/b/8beb987c-1b67-4a4e-ae71-58547afad2a0.jpg?1726284649' loading='lazy' alt='Brainstorm' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/c/a/ca097675-5e82-493d-beab-9fc11efd7492.jpg?1562631972' loading='lazy' alt='Cunning Wish' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/c/a/ca097675-5e82-493d-beab-9fc11efd7492.jpg?1562631972' loading='lazy' alt='Cunning Wish' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/c/a/ca097675-5e82-493d-beab-9fc11efd7492.jpg?1562631972' loading='lazy' alt='Cunning Wish' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/f/9/f900eeb7-7c45-44bc-ad3a-0bbe594ecf50.jpg?1562856071' loading='lazy' alt='Flusterstorm' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/8/9/89f612d6-7c59-4a7b-a87d-45f789e88ba5.jpg?1753711891' loading='lazy' alt='Force of Will' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/8/9/89f612d6-7c59-4a7b-a87d-45f789e88ba5.jpg?1753711891' loading='lazy' alt='Force of Will' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/8/9/89f612d6-7c59-4a7b-a87d-45f789e88ba5.jpg?1753711891' loading='lazy' alt='Force of Will' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://cards.scryfall.io/border_crop/front/8/9/89f612d6-7c59-4a7b-a87d-45f789e88ba5.jpg?1753711891' loading='lazy' alt='Force of Will' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/b/1/b13e73a5-067d-4dbd-9c98-34a0db6140de.jpg?1562431264' loading='lazy' alt='Intuition' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/d/c/dc69f960-68ba-4315-8146-6a7a82047503.jpg?1743206358' loading='lazy' alt='Ponder' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/d/c/dc69f960-68ba-4315-8146-6a7a82047503.jpg?1743206358' loading='lazy' alt='Ponder' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/d/c/dc69f960-68ba-4315-8146-6a7a82047503.jpg?1743206358' loading='lazy' alt='Ponder' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://cards.scryfall.io/border_crop/front/d/c/dc69f960-68ba-4315-8146-6a7a82047503.jpg?1743206358' loading='lazy' alt='Ponder' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/d/d/dd29a0e5-c1de-4e8a-8866-715e9f9cde1f.jpg?1764118090' loading='lazy' alt='Preordain' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/d/d/dd29a0e5-c1de-4e8a-8866-715e9f9cde1f.jpg?1764118090' loading='lazy' alt='Preordain' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/d/d/dd29a0e5-c1de-4e8a-8866-715e9f9cde1f.jpg?1764118090' loading='lazy' alt='Preordain' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/f/a/fa7b7897-36e0-415a-8bb7-602886164852.jpg?1707355809' loading='lazy' alt='Show and Tell' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/f/a/fa7b7897-36e0-415a-8bb7-602886164852.jpg?1707355809' loading='lazy' alt='Show and Tell' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/f/a/fa7b7897-36e0-415a-8bb7-602886164852.jpg?1707355809' loading='lazy' alt='Show and Tell' />
+
+                                <img class='overview-card-image mtg-overview-position-4' src='https://cards.scryfall.io/border_crop/front/f/a/fa7b7897-36e0-415a-8bb7-602886164852.jpg?1707355809' loading='lazy' alt='Show and Tell' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/8/d/8dd4374f-0301-4b2e-bc99-2cd19568cb3b.jpg?1738359138' loading='lazy' alt='Spell Pierce' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/8/d/8dd4374f-0301-4b2e-bc99-2cd19568cb3b.jpg?1738359138' loading='lazy' alt='Spell Pierce' />
+
+                        </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <h4>Other Spells <small class="text-muted">(9)</small></h4>
+                <div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/f/8/f85ab5f9-508e-45de-8fa1-ce1f16552ffc.jpg?1701537448' loading='lazy' alt='Lotus Petal' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/f/8/f85ab5f9-508e-45de-8fa1-ce1f16552ffc.jpg?1701537448' loading='lazy' alt='Lotus Petal' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/f/8/f85ab5f9-508e-45de-8fa1-ce1f16552ffc.jpg?1701537448' loading='lazy' alt='Lotus Petal' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/d/3/d33d91d0-1506-45e4-9def-975bf901815e.jpg?1731652624' loading='lazy' alt='Omniscience' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/d/3/d33d91d0-1506-45e4-9def-975bf901815e.jpg?1731652624' loading='lazy' alt='Omniscience' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/d/3/d33d91d0-1506-45e4-9def-975bf901815e.jpg?1731652624' loading='lazy' alt='Omniscience' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/a/4/a45b4ca9-4355-4690-84c3-a7d44c367dbf.jpg?1675200189' loading='lazy' alt='Sneak Attack' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/a/4/a45b4ca9-4355-4690-84c3-a7d44c367dbf.jpg?1675200189' loading='lazy' alt='Sneak Attack' />
+
+                                <img class='overview-card-image mtg-overview-position-3' src='https://cards.scryfall.io/border_crop/front/a/4/a45b4ca9-4355-4690-84c3-a7d44c367dbf.jpg?1675200189' loading='lazy' alt='Sneak Attack' />
+
+                        </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <h4>Sideboard <small class="text-muted">(15)</small></h4>
+                <div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/d/0/d072e9ca-aae7-45dc-8025-3ce590bae63f.jpg?1753711840' loading='lazy' alt='Blood Moon' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/d/0/d072e9ca-aae7-45dc-8025-3ce590bae63f.jpg?1753711840' loading='lazy' alt='Blood Moon' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/f/9/f939dac5-ad71-4163-adde-4f435412477c.jpg?1562744235' loading='lazy' alt='Defense Grid' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/5/d/5d987d26-c8e8-4edf-8ac0-6a2980265710.jpg?1673305149' loading='lazy' alt='Echoing Truth' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/5/d/5d987d26-c8e8-4edf-8ac0-6a2980265710.jpg?1673305149' loading='lazy' alt='Echoing Truth' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/e/a/ea751fe2-b64a-4265-8885-a9016b29b5b3.jpg?1562202300' loading='lazy' alt='Eladamri's Call' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/5/5/555778df-8ed9-4eb3-859b-4246d9e05ee5.jpg?1605275421' loading='lazy' alt='Firemind's Foresight' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/f/9/f900eeb7-7c45-44bc-ad3a-0bbe594ecf50.jpg?1562856071' loading='lazy' alt='Flusterstorm' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/0/a/0a135e09-b534-4836-9a10-3a9a4a9f8c53.jpg?1592517646' loading='lazy' alt='Grafdigger's Cage' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/7/2/72765559-0a78-4aa3-827e-cb4612720991.jpg?1618608556' loading='lazy' alt='Kozilek's Return' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/b/0/b029eb9a-dd7a-40c2-96c4-0063d9cc002c.jpg?1580014621' loading='lazy' alt='Pyroblast' />
+
+                                <img class='overview-card-image mtg-overview-position-2' src='https://cards.scryfall.io/border_crop/front/b/0/b029eb9a-dd7a-40c2-96c4-0063d9cc002c.jpg?1580014621' loading='lazy' alt='Pyroblast' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/5/b/5b659a3b-0f66-40f2-8e2e-f13b694e270e.jpg?1619397715' loading='lazy' alt='Sudden Shock' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/e/1/e15d76ac-1c23-4503-8225-375ac2bf2fb6.jpg?1673147668' loading='lazy' alt='Surgical Extraction' />
+
+                        </div>
+                        <div class="card-stack" style="height:490px">
+                                <img class='overview-card-image mtg-overview-position-1' src='https://cards.scryfall.io/border_crop/front/c/9/c90a3430-f6d9-4432-84d3-9952d2b82003.jpg?1736468237' loading='lazy' alt='Through the Breach' />
+
+                        </div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<footer class="bg-dark text-light mt-5 py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="mb-1">&copy; <span id="current-year"></span> Sebastian Proost. All rights reserved.</p>
+        <p class="small opacity-75">Card images and game content are property of their respective owners.</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <p class="mb-1 small opacity-75">Last updated: <span id="last-updated"></span></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://sebastian.proost.science/DeckLock/theme/js/bootstrap.bundle.min.js"></script>
+<script src="https://sebastian.proost.science/DeckLock/theme/js/chart.min.js"></script>
+<script>
+// Set current year and last updated date
+document.getElementById('current-year').textContent = new Date().getFullYear();
+const now = new Date();
+const options = { year: 'numeric', month: 'long', day: 'numeric' };
+document.getElementById('last-updated').textContent = now.toLocaleDateString('en-US', options);
+
+// Dark mode toggle
+const themeToggle = document.getElementById('theme-toggle');
+const htmlElement = document.documentElement;
+
+// Check for saved theme preference or default to 'light' mode
+const currentTheme = localStorage.getItem('theme') || 'light';
+htmlElement.setAttribute('data-bs-theme', currentTheme);
+
+themeToggle.addEventListener('click', function() {
+  const theme = htmlElement.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light';
+  htmlElement.setAttribute('data-bs-theme', theme);
+  localStorage.setItem('theme', theme);
+});
+
+// Initialize Bootstrap popovers
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl, {
+  html: true,
+  trigger: 'hover',
+  placement: 'top'
+}));
+</script>
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover({html: true})
+})
+</script>
+<script>
+// Detect dark mode for chart colors
+const isDarkMode = document.documentElement.getAttribute('data-bs-theme') === 'dark';
+const textColor = isDarkMode ? '#ffffff' : '#000000';
+const gridColor = isDarkMode ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)';
+
+var ctx = document.getElementById('cmcStats').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "10+"],
+        datasets: [        {
+            label: 'A',
+            data: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            borderColor: 'rgba(157, 134, 96, 0.9)',
+            backgroundColor: 'rgba(157, 134, 96, 1)'
+        },
+        {
+            label: 'B',
+            data: [0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0],
+            borderColor: 'rgba(186, 177, 171, 0.9)',
+            backgroundColor: 'rgba(186, 177, 171, 1)'
+        },
+        {
+            label: 'U',
+            data: [0, 14, 0, 8, 0, 4, 0, 0, 0, 0, 3, 0],
+            borderColor: 'rgba(193, 215, 233, 0.9)',
+            backgroundColor: 'rgba(193, 215, 233, 1)'
+        },
+        {
+            label: 'R',
+            data: [0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0],
+            borderColor: 'rgba(228, 153, 119, 0.9)',
+            backgroundColor: 'rgba(228, 153, 119, 1)'
+        },
+]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+            legend: {
+                display: true,
+                position: 'bottom',
+                labels: {
+                    color: textColor,
+                    usePointStyle: true,
+                    padding: 10
+                }
+            },
+            tooltip: {
+                backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.9)' : 'rgba(255, 255, 255, 0.9)',
+                titleColor: textColor,
+                bodyColor: textColor,
+                borderColor: gridColor,
+                borderWidth: 1,
+                callbacks: {
+                    title: function(context) {
+                        return 'CMC ' + context[0].label;
+                    },
+                    label: function(context) {
+                        return context.dataset.label + ': ' + context.parsed.y + ' card' + (context.parsed.y !== 1 ? 's' : '');
+                    }
+                }
+            }
+        },
+        scales: {
+            x: {
+                stacked: true,
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: textColor
+                },
+                title: {
+                    display: true,
+                    text: 'Mana Value',
+                    color: textColor
+                }
+            },
+            y: {
+                stacked: true,
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: textColor,
+                    stepSize: 1
+                },
+                title: {
+                    display: true,
+                    text: 'Number of Cards',
+                    color: textColor
+                }
+            }
+        }
+    }
+});
+</script>
+</body>
+</html>
